@@ -15,6 +15,8 @@ namespace ConsoleApplication1
             {
                 Random number = new Random();
                 int answer = number.Next(0, 100);
+
+
                 int count = 1;
                 Console.WriteLine("Number Guessing Game");
                 Console.WriteLine("Please enter your number:");
